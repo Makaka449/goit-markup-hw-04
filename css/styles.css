@@ -32,9 +32,6 @@ img{
 }
 
 .container {
-    margin-right: 120px;
-    align-items: baseline;
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px
@@ -338,6 +335,14 @@ img{
     background-color: #31d0aa;
 }
 
+.container_footer{
+    margin-right: 120px;
+    align-items: baseline;
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px
+}
 
 /*=====team=====*/
 

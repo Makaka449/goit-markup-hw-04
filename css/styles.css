@@ -273,7 +273,7 @@ img{
     color: #434455;
 }
 
-.container_strategy{
+.container_div{
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -281,7 +281,7 @@ img{
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    
+
 }
 
 /*==============footer=============*/

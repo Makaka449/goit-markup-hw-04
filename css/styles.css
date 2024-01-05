@@ -461,10 +461,15 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    fill: #F4F4FD;
 }
 
 .team_svg:hover{
+    background-color: #404BBF;
+    
+}
+
+.team_svg:focus{
     background-color: #404BBF;
     
 }

@@ -49,16 +49,7 @@ img{
     color: #404bbf;
 }
 
-.header::after{
-    
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
 
-}
 
 .header .container{
     display: flex;
@@ -98,7 +89,21 @@ img{
     word-wrap: break-word
 }
 
+.header_menu_list_a_a{
+    color: #404bbf;
 
+}
+
+.header_menu_list_a_a::after{
+    
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
+}
 
 .header-menu-list {
     gap: 40px;

@@ -107,7 +107,7 @@ img{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    content: url(../images/icons.svg/hover.svg);
+    content: url(../images/icons.svg#icon-hover);
 }
 
 .header-menu-list {

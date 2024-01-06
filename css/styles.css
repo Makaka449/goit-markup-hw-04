@@ -159,6 +159,7 @@ img{
 
 .header-menu-item-a{  
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -405,10 +406,6 @@ img{
     align-items: baseline;
     margin-right: 120px
 
-}
-
-.container_footer_b{
-    
 }
 
 .container_footer{

@@ -105,9 +105,10 @@ img{
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 100%;
     background-color: #404bbf;
     border-radius: 2px;
-    content: url(../images/icons.svg#icon-hover);
+    content: "";
 }
 
 .header-menu-list {
@@ -188,7 +189,7 @@ img{
     background-size: cover;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-1.jpg);
-
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -545,9 +546,16 @@ img{
 
 .portfolio_li:hover{
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+    
+}
+
+.portfolio_li:hover .portfolio_div_p{
     transform: translateY(0%);
     
 }
+
+
 
 .portfolio_h{
     margin-bottom: 8px;
